@@ -14,8 +14,8 @@ import java.util.Scanner;
  * @author nouraahmed
  */
 public class DividingCoins562 {
-    //it is basicullay a knapsack problem 
-    //the dp array -> 1D is suffiecnt 
+    //it is basically a knapsack problem 
+    //the dp array -> 1D is sufficient  
     static int[] dp = new int[25000+1];//500*100/2
     public static int coinDivide(int m, int sum, int[] coins){ //can make the A as a class attibute to avoid passing it 
         for(int i = 0; i<= sum; i++) dp[i] = 0;
